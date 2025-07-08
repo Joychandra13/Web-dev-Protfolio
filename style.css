@@ -198,3 +198,32 @@ nav li a{
     font-weight: 400;
     color: #757575;
 }
+
+/* resume section */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-col-title{
+    font-size: 30px;
+    color: #181818;
+    font-weight: bold;
+}
+.experience-title{
+    font-size: 26px;
+    color: #474747;
+    font-weight: bold;
+    margin:30px 0 10px 0;
+}
+.experience-sub-title{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-des{
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
