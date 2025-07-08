@@ -1,0 +1,59 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Colors */
+.primaryColor{
+    color: #FD6E0A;
+}
+.secondaryColor{
+    color: #FFF8F3;
+}
+.dark-1{
+    color: #181818;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+
+.btn-primary{
+    color: white;
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* NavBar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 230px;
+}
+.logo{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 53px;
+}
+nav ul li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
