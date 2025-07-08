@@ -34,6 +34,12 @@
     font-weight: bold;
 }
 
+.header{
+    background-image: url('/images/developer.png'), url('/images/header_bg.png') ;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 /* NavBar */
 nav{
     display: flex;
@@ -56,4 +62,23 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+/* Banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 38px 0 230px;
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-content h4{
+    font-size: 45px;
+    font-weight: 500;
+}
+.banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
 }
