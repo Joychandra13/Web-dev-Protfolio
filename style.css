@@ -92,7 +92,7 @@
 }
 @media (max-width: 1020px) {
     .header{
-        padding: 0px 50px;
+        padding: 0px 10px;
     }
 }
 
@@ -127,6 +127,11 @@ nav li a{
         gap: 40px;
     }
 }
+@media (max-width: 768px) {
+    nav ul{
+        gap: 20px;
+}
+}
 
 .main{
     max-width: 1140px;
@@ -135,7 +140,7 @@ nav li a{
 }
 @media (max-width: 768px) {
     .main{
-        padding: 0px 30px;
+        padding: 0px 10px;
     }
 }
 @media (max-width: 1020px) {
@@ -236,6 +241,11 @@ nav li a{
     .about{
         padding: 50px;
         margin: 50px 0;
+    }
+}
+@media (max-width: 768px) {
+    .about{
+        padding: 30px;
     }
 }
 
